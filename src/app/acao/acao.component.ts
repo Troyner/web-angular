@@ -23,10 +23,10 @@ const ELEMENT_DATA: PeriodicElement[] = [
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './acao.component.html',
+  styleUrls: ['./acao.component.css']
 })
-export class AppComponent implements OnInit {
+export class AcaoComponent implements OnInit {
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
   dataSource = new MatTableDataSource(ELEMENT_DATA);
 
